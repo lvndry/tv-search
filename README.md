@@ -30,7 +30,7 @@ $ docker pull snwfdhmp1/tv-search:v1.0.0
 #### 2. Start a container
 
 ```bash
-$ docker run --name tv-search -d -p 8080:8080 snwfdhmp1/tv-search
+$ docker run --name tv-search -d -p 8080:8080 snwfdhmp1/tv-search:v1.0.0
 ```
 
 ## Search for a torrent

@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +15,8 @@
     "body-parser": "^4.16.3",
     "jquery": "^3.3.1",
     "torrent-search-api": "^1.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   }
 }
